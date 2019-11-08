@@ -14,7 +14,7 @@ dbbackup_log="${base_dbback_dir}/dbbackup.log"
 #img_dir="/home/wwwroot/default/pluto/Resources/Uploads"
 mysqldump_bin="/usr/local/mysql/bin/mysqldump"
 mysql_user="root"
-mysql_pass="0JuV3tFnzF2VFB0"
+mysql_pass="pass"
 db_names=$(mysql -u${mysql_user} -p${mysql_pass} -e 'SHOW DATABASES;' | grep -E -v "Database|information_schema|performance_schema|sys$")
 mysqldump_method="${mysqldump_bin} -u${mysql_user} -p${mysql_pass} -hlocalhost --default-character-set=utf8 --single-transaction -e --max_allowed_packet=1048576 --net_buffer_length=8192 "
 data_center_ip="192.168.2.108"

@@ -7,7 +7,7 @@ script_abs_path=$(readlink -f ${script_name})
 script_dirname=$(dirname ${script_abs_path})
 script_logfile="${script_dirname}/${script_name}.log"
 mysql_user="root"
-mysql_pass="nX9Mjnxjwf1f6rM="
+mysql_pass="pass"
 pre_db="192.168.241.51"
 xtrabackup_bin=$(which --skip-alias innobackupex)
 back_dir="/home/data/sync_to_pre/$(date +%Y-%m-%d_%H-00-00)"

@@ -14,8 +14,8 @@ back_dir=${back_base_dir}/${back_dir_name}
 data_dir="/usr/local/mysql/var"
 mysql_table="/srv/mysql_$(date +%Y-%m-%d_%H-00-00).sql"
 mysql_user="root"
-mysql_pass="51zhaoyou1!"
-online_mysql_pass="nX9Mjnxjwf1f6rM="
+mysql_pass="pass"
+online_mysql_pass="pass"
 the_time="date +%Y-%m-%d_%H:%M:%S"
 error_ret="2"
 
